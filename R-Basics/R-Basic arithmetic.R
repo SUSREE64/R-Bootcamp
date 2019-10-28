@@ -6,7 +6,7 @@
 3-4
 #multiply
 2*5
-#modulo - Note double %% sign
+#modulo(reminder) - Note double %% sign
 10 %% 3
 #division
 10/3

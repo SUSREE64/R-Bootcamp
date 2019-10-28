@@ -7,6 +7,3 @@ bank.balance <- bank.balance+bank.deposit-bank.withdraw
 print(bank.balance)
 # Variables also can be assigned with values using "="
 # But this not the convension 
-num1 = 20
-num2 = 40
-print(num1+num2)
