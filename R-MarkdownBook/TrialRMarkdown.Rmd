@@ -1,0 +1,81 @@
+---
+title: "Romance With R"
+author: "Sree"
+date: "12/02/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown Book. 
+
+> Commenting in R Language :
+
+```{r}
+# This is single line commenting
+# Line 1
+# Line 2
+# Line 3
+#<ctrl> <shift> <c> on mulliple lines comments the lines. 
+
+```
+
+There is no multi line or block commenting in R. Selecting multiple lines to comment and use \<ctrl>\<shift>\<c> to comment out them.
+
+> Traditional Hello World :
+
+```{r}
+print("Hello World")
+```
+
+```{r}
+ # paste  and paste0
+paste("file" , "number", 32)
+
+```
+
+```{r}
+paste("file", "Number", 32, sep = "-")
+```
+
+```{r}
+paste0("File", "number", 32)
+
+```
+
+```{r}
+# String concatenation
+cat("Hello " , "World")
+```
+
+## Chapter 1 - Data Types
+
+#### 1.1 Scalars & Vectors : 
+
+One way to classify the data types is Scalars and Vectors . Scalars are atomic values like a single number, string , float value etc. Basically they store one unit atomic value. Where as vectors are basically collections of scalars.
+
+If 'integer' is a scalar, an array of "integers" is vector. Please note Vectors always store same type elements in them.
+
+*typeof(), class()* are two commands that show the details of a data element.
+
+```{r echo=TRUE}
+# Some Examples of data elements
+a <- 20
+print(typeof(a))
+print(class(a))
+
+```
+
+```{r echo = TRUE}
+name <- "sree"
+singlechar <- 'c'
+print(typeof(name))
+print(class(name))
+print(typeof(singlechar))
+print(class(singlechar))
+
+```
+
+\
